@@ -1,0 +1,31 @@
+{
+    "urlsList": 
+    [
+      { "id": 1, "title": "Delfi", "url": "https://www.delfi.lt/" },
+      { "id": 2, "title": "LRT", "url": "https://www.lrt.lt/" },
+      { "id": 3, "title": "15min", "url": "https://www.15min.lt/" },
+      { "id": 4, "title": "Gemius", "url": "https://www.gemius.lt/" },
+      { "id": 5, "title": "KaipKada", "url": "https://www.kaipkada.lt/" },
+      { "id": 6, "title": "Lietuva", "url": "https://www.lietuva.lt/" },
+      { "id": 7, "title": "Kainos", "url": "https://www.kainos.lt/" },
+      { "id": 8, "title": "Pigu", "url": "https://www.pigu.lt/" },
+      { "id": 9, "title": "Skelbiu", "url": "https://www.skelbiu.lt/" },
+      { "id": 10, "title": "1A", "url": "https://www.1a.lt/" },
+      { "id": 11, "title": "SkyTech", "url": "https://www.skytech.lt/" },
+      { "id": 12, "title": "RDE", "url": "https://www.rde.lt/" },
+      { "id": 13, "title": "Kaina24", "url": "https://www.kaina24.lt/" },
+      { "id": 14, "title": "KaipKada", "url": "https://www.kaipkada.lt/" },
+      { "id": 15, "title": "CVBankas", "url": "https://www.cvbankas.lt/" },
+      { "id": 16, "title": "Vichy parkas", "url": "https://www.vandensparkas.lt/" },
+      { "id": 17, "title": "Kaunas", "url": "http://www.kaunas.lt/" },
+      { "id": 18, "title": "Aqua parkas", "url": "https://www.akvapark.lt/" },
+      { "id": 19, "title": "Akropolis", "url": "https://www.akropolis.lt/" },
+      { "id": 20, "title": "Molas", "url": "https://molas.lt/" },
+      { "id": 21, "title": "Mega", "url": "https://www.mega.lt/" },
+      { "id": 22, "title": "KaipKada", "url": "https://www.kaipkada.lt/" },
+      { "id": 23, "title": "Lietuva", "url": "https://www.lietuva.lt/" },
+      { "id": 24, "title": "Kainos", "url": "https://www.kainos.lt/" },
+      { "id": 25, "title": "Pigu", "url": "https://www.pigu.lt/" },
+      { "id": 26, "title": "Skelbiu", "url": "https://www.skelbiu.lt/" }
+    ]
+}
