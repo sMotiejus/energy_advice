@@ -44,7 +44,7 @@ function App() {
                                     {url.title}
                                 </div>
                                 <div key={url.id} className="grid-component-off">
-                                    <img src={process.env.PUBLIC_URL + "/SS/"+url.title.replace(/\s/g, '')+".png"} alt="SS"/>
+                                    <img src={process.env.PUBLIC_URL + "/SS/"+url.title+".png"} alt="SS"/>
                                     <a href={url.url}>{url.url}</a>
                                 </div>
                             </div>         
