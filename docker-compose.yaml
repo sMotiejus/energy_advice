@@ -1,0 +1,19 @@
+version: "3.8"
+services: 
+  server:
+    build: ./server
+    container_name: serverioKonteineris
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+  client:
+    build: ./client
+    container_name: klientoKonteineris
+    ports:
+      - '3000:3000'
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true

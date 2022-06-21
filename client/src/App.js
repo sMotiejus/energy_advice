@@ -11,7 +11,8 @@ function App() {
     const [urls,setUrls] = useState([{}])
 
     useEffect(() =>{
-        fetch("/api").then(
+        
+        fetch('http://localhost:5000/api').then(
             response => response.json()
         ).then(
             data => {
@@ -29,9 +30,9 @@ function App() {
                 <div className="grid-container">
                     {(typeof urls.urlsList === 'undefined')? 
                     (
-                        <div class="d-flex justify-content-center">
-                            <div class="spinner-border" role="status">
-                                <span class="sr-only"></span>
+                        <div className="d-flex justify-content-center">
+                            <div className="spinner-border" role="status">
+                                <span className="sr-only"></span>
                             </div>
                         </div>
                     )
@@ -44,7 +45,7 @@ function App() {
                                     {url.title}
                                 </div>
                                 <div key={url.id} className="grid-component-off">
-                                    <img src={process.env.PUBLIC_URL + "/SS/"+url.title+".png"} alt="SS"/>
+                                    <img src={process.env.PUBLIC_URL + "/SS/"+url.title.replace(/\s/g, "")+".png"} alt="SS"/>
                                     <a href={url.url}>{url.url}</a>
                                 </div>
                             </div>         
