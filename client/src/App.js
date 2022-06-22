@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from 'axios';
 
 function ShowFavicon(end){
     let start= "https://s2.googleusercontent.com/s2/favicons?domain=";
@@ -11,14 +12,13 @@ function App() {
     const [urls,setUrls] = useState([{}])
 
     useEffect(() =>{
-        
-        fetch('http://localhost:5000/api').then(
-            response => response.json()
-        ).then(
-            data => {
-                setUrls(data)
-            }
-        )
+        axios.get('http://localhost:5000/api')
+        .then(res => {
+            setUrls(res.data);
+        })
+        .catch(err => {
+            console.log(err);
+        })
     }, [])
 
     return (
