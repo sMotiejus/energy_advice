@@ -1,11 +1,11 @@
 # REACT AND EXPRESS SERVERS
-front server(client) - REACT framework using axios RESTful methods,
+front server(client) - REACT framework using axios RESTful methods,<br />
 backend server(server) - express RESTful.
 
-# NORMAl INIT
+# NORMAL INIT
 Use (1) powershell:<br />
 cd server -> npm i -> npm start<br />
-Use (2) powershell:
+Use (2) powershell:<br />
 cd client -> npm i -> npm start
 
 # INIT USING DOCKER
