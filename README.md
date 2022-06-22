@@ -1,5 +1,5 @@
 # REACT AND EXPRESS SERVERS
-front server(client) - REACT framework using axios RESTful methods,<br />
+front server(client) - REACT framework using axios CRUD methods,<br />
 backend server(server) - express RESTful.
 
 # NORMAL INIT
